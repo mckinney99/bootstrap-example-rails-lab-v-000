@@ -4,9 +4,40 @@
   <title>Application Layout</title>
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
 </head>
 <body>
+<div class="container">
+  <ul class="nav navbar-nav">
+       <li role="presentation" class="active"><a href="#">Home</a></li>
+       <li role="presentation"><a href="#">About</a></li>
+       <li role="presentation"><a href="#">Contact</a></li>
+     </ul>
+  <div class="row">
+    <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+      <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+        <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+          </div>
+          </div>
+          </div>
+    <div class="row">
+      <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+        <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+          <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+            </div>
+            </div>
+            </div>
+      <div class="row">
+        <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+          <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+            <div class="col-lg-4"><p>Yo</p><button type="button" class="btn btn-primary">Primary</button>
+              </div>
+              </div>
+              </div>
+      </div>
+    </div>
 
+</div>
 <%= yield %>
 <%= javascript_include_tag "application" %>
 </body>
